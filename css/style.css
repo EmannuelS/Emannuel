@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ecf0f1;
+    font-family: 'Verdana', sans-serif;
+}
+
+section {
+    margin-top: 150px;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    border-bottom: 2px solid #black;
+    background: #333;
+    height: 65px;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1.4em 2em;
+    text-decoration: none;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+    transition: 0.4s ease-in;
+    background-color: #444;
+    text-decoration: ;
+}
+
+nav ul li a:active {
+    border-bottom: 2px solid #3498db;
+}
+
+nav > ul > li > a > .esquerda {
+    color: transparent;
+    margin: 0px -20px 0px 0px;
+    -webkit-transition-property: color;
+    /* Safari */
+    -webkit-transition-duration: 0.5s;
+    /* Safari */
+    transition-property: color, margin;
+    transition-duration: 0.5s, 0.70s;
+}
+
+nav > ul > li > a > .direita {
+    color: transparent;
+    margin: 0px 0px 0px -10px;
+    -webkit-transition-property: color;
+    /* Safari */
+    -webkit-transition-duration: 0.5s;
+    /* Safari */
+    transition-property: color, margin;
+    transition-duration: 0.5s, 0.70s;
+}
+
+#menu:hover span {
+    color: #fff;
+    margin: 0px 0px 0px 0px;
+}
+
+.ativo {
+    background-color: #444;
+}
+
+.logobranco {
+    position: fixed;
+    top: 3px;
+    right: 5px;
+    width: 7%;
+    z-index: 11;
+}
+
+#figurelogogrande {
+    text-align: center;
+    margin: 8% 0 0 0;
+}
+
+#logogrande {
+    width: 50%;
+}
+
+#sobre {
+    margin: 5% 20%;
+}
+
+#sobre h1 {
+    text-align: center;
+    color: #3498db;
+    font-weight: bolder;
+}
+
+#sobre p {
+    text-align: justify;
+    text-indent: 2%;
+    font-size: 18px;
+}
+
+.eu img {
+    width: 50%;
+    margin: 1% 25%;
+}
+
+footer {
+    clear: both;
+    margin: 3% 0 0 0;
+    border-top: 2px solid #3498db;
+    background: #333;
+    height: 65px;
+    width: 100%;
+}
+
+footer p {
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    padding: 1.4em 2em;
+}
+
+/*********** INSTITUIÇÃO ***********/
+
+#slide {
+    margin: 50px 0 0 0;
+}
+
+.mySlides {
+    display: none;
+    width: 100vw;
+    height: 600px;
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer;
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+}
+
+.w3-container h2 {
+    top: 60px;
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+    font-weight: bolder;
+}
+
+#sobrefatec {
+    margin: 2% 15%;
+}
+
+#sobrefatec h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #3498db;
+    margin: 2% 0 3% 0;
+}
+
+#sobrefatec p {
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 4%;
+}
+
+.pfatec {
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+.pfatec span {
+    color: #3498db;
+    font-weight: bolder;
+    line-height: 3;
+}
+
+/*********** MATÉRIAS *************/
+
+#materias {
+    margin: 80px 0 0 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#materias h1 {
+    font-weight: bolder;
+    color: #3498db;
+    margin: 0 0 0 0;
+    text-decoration: underline #3498db
+}
+
+#materias h4 {
+    margin: 30px 0 0 0;
+}
+
+.flex {
+    text-align: center;
+    margin: 0;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.figmat img {
+    width: 200px;
+}
+
+/********* CONTEUDO MATERIAS **********/
+
+.cont_materias {
+    margin: 80px 5%;
+}
+
+.cont_materias h2 {
+    color: #3498db;
+}
+
+.cont_materias figure {
+    margin: 1% 4% 2% 0;
+    float: left;
+}
+
+.cont_materias figure figcaption {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.cont_materias img {
+    width: 300px;
+}
+
+.cont_materias p:nth-of-type(1) {
+    margin-top: 40px;
+}
+
+.cont_materias p {
+    line-height: 1.8;
+    margin-bottom: 1em;
+    text-indent: 2%;
+}
+
+.cont_materias span {
+    font-weight: bolder;
+}
+
+.span-azul {
+    font-weight: bolder;
+    color: #3498db;
+}
+
+.cont_materias ul {
+    margin: 8% 0 0 2%;
+    text-align: center;
+}
+
+.cont_materias ul li {
+    list-style: none;
+}
+
+.cont_materias ul span {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.cont_materias button {
+    float: right;
+    margin: 30px 0 80px 0;
+    padding: 5px 15px;
+    background-color: #3498db;
+    border: 2px outset #3498db;
+    font-weight: bolder;
+}
+
+.cont_materias button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.cont_materias button:active {
+    border: 1px outset #3498db;
+}
+
+.cont_materias h4 {
+    margin-top: 4%;
+}
+
+#atividades img {
+    margin: 1% 2%;
+}
+
+#ps {
+    width: 50%;
+}
+
+.algoritmo {
+    font-weight: bold;
+    text-indent: 
+}
+
+.tab1{
+    margin-left: 2%;
+}
+
+.tab2{
+    margin-left: 4%;
+}
+
+
+
+/*********** CONTATO *************/
+
+.formulario {
+    margin: 10% 30% 0 30%;
+}
+
+fieldset {
+    width: 40%;
+    border: none;
+}
+
+input,
+label {
+    display: inline-block;
+    margin: 2% 0 0 0;
+}
+
+legend {
+    
+}
