@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Matérias - Emannuel Santana </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li id="menu"><a href="index.html"><span class="esquerda">&lt;</span><strong>Início</strong><span class="direita">&gt;</span></a></li>
+            <li id="menu"><a href="instituicao.html"><span class="esquerda">&lt;</span><strong> Instituição</strong><span class="direita">&gt;</span></a></li>
+            <li id="menu"><a href="materias.html"><span class="esquerda">&lt;</span><strong> Matérias </strong><span class="direita">&gt;</span></a></li>
+            <li id="menu"><a href="contato.html"><span class="esquerda">&lt;</span><strong> Contato</strong> <span class="direita">&gt;</span></a></li>
+        </ul>
+    </nav>
+    <a href="index.html"><img class="logobranco" src="imagens/logobranco.png" alt="Logo" title="Logo-Início"></a>
+
+    <section class="cont_materias">
+        <h2>Algoritmo e Lógica de Programação</h2>
+        <figure>
+            <figcaption>Lígia</figcaption>
+            <img src="imagens/ligia.jpg" alt="Lígia" title="Lígia">
+        </figure>
+        
+        <p>Quando se fala em algoritmo trata-se de propor uma solução para um problema, sendo assim, o primeiro passo é analisar o problema, definir os limites e por em formato numa linguagem descritiva, geralmente falamos de análise para descrever o processo pelo qual o problema é formalizado. O próximo passo é traduzir o algoritmo em uma linguagem de programação específica, que é a fase da programação.</p>
+
+        <p>A linguagem de programação é o intermediário entre o humano e a máquina, com ela é possível escrever em uma linguagem próxima da máquina, mas ainda, compreensível para o ser humano. Como a linguagem de programação é destinada ao computador, ela deve respeitar uma sintaxe(as regras que controlam a estrutura) na hora de ser estrita.</p>
+
+        <p>Existem linguagens de alto e baixo nível, sendo de alto aquelas que se aproximam mais da nossa linguagem e as de baixo aquelas que se distanciam da nossa e se aproximam da linguagem da máquina.</p>
+        
+        <h4>Exemplo de algoritmo</h4>
+        <p class="algoritmo"><br/>
+        
+        int main() {<br/>
+            <span class="tab1">float num1, num2, soma;</span><br/>
+            <span class="tab1">char opcao = 's';</span><br/><br/>
+
+            <span class="tab1">printf("Soma interativa! \n \n");</span><br/><br/>
+
+            <span class="tab1">do {</span><br/>
+                <span class="tab2">printf("Digite um nÃºmero: ");</span><br/>
+                <span class="tab2">scanf("%f", &num1);</span><br/><br/>
+
+                <span class="tab2">printf("Digite outro nÃºmero: ");</span><br/>
+                <span class="tab2">scanf("%f", &num2);</span><br/><br/>
+
+                <span class="tab2">soma = num1 + num2;</span><br/><br/>
+
+                <span class="tab2">printf("A soma dos nÃºmeros Ã©: %0.2f \n", soma);</span><br/><br/>
+
+                <span class="tab2">printf("Deseja continuar o cÃ¡lculo da soma de outros nÃºmeros? \n");</span><br/>
+                <span class="tab2">printf("Digite [s] para continuar ou [n] para terminar. \n");</span><br/>
+                <span class="tab2">scanf(" %c", &opcao);</span><br/><br/>
+
+                <span class="tab2">printf("\n \n");</span><br/>
+            <span class="tab1">}while(opcao == 's' || opcao == 'S');</span><br/><br/>
+
+            <span class="tab1">printf("O programa terminou! \n");</span><br/>
+                }
+        </p>
+        
+        
+        <h4>Definições:</h4>
+        
+        <p><span>if...else:</span> A estrutura condicional if/else é um recurso que indica quais instruções o sistema deve processar de acordo com uma expressão booleana. Assim, o sistema testa se uma condição é verdadeira e então executa comandos de acordo com esse resultado.</p>
+        
+        <p><span>switch...case:</span> É uma forma de reduzir a complexidade de vários if … else encadeados. É muito utilizado, principalmente para uso em estruturas de menu. O conteúdo de uma variável é comparado com um valor constante, e caso a comparação seja verdadeira, um determinado comando é executado.</p>
+        
+        <p><span>while:</span> Esta instrução é usada quando não sabemos quantas vezes um determinado bloco de instruções precisa ser repetido. Com ele, a execução das instruções vai continuar até que uma condição seja verdadeira. A condição a ser analisada para a execução do laço de repetição deverá retornar um valor booleano.</p>
+        
+        <p><span>do...while:</span> O do/while tem quase o mesmo funcionamento que o while, a diferença é que com o uso dele teremos os comandos executados ao menos uma única vez.</p>
+        
+        <p><span>for:</span> Usamos o laço for quando sabemos exatamente quantas vezes queremos repetir um bloco de instruções. A declaração simples e mais comumente usada do laço for é a seguinte: <span>for (valor inicial; teste booleano; incremento){}</span></p>
+        
+        <a href="materias.html"><button>Voltar</button></a>
+        
+    </section>
+    
+    
+    <footer>
+        <p>Emannuel Santana &copy;Todos os direitos reservados - 2017</p>
+    </footer>
+</body>
+
+</html>
